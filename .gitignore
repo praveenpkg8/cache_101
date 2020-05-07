@@ -1,0 +1,7 @@
+# Cahche 101
+
+.venv/
+migrations/
+.idea/
+cache.db
+*.pyc
