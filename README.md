@@ -27,7 +27,7 @@ source .venv/bin/activate
 ```
 ___
 
-## Install python and js dependencies
+## Install python dependencies
 From the root of the project run:
 ```
 make setup
