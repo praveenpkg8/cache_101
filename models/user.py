@@ -27,6 +27,7 @@ class User(db.Model):
     def get_user_by_email(email):
         user = User.query.filter_by(email=email).first()
         user_dict = user.__dict__
+        user_dict.pop('_sa_instance_state')
         return user_dict
 
 
